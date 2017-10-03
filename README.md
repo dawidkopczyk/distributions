@@ -11,11 +11,11 @@ is defined as:<P>
 <img src="http://latex.codecogs.com/gif.latex?f(x)&space;=&space;\frac{1}{2\sqrt{1&plus;\pi^{2}}K_{1}\left&space;(&space;\zeta&space;\right&space;)}e^{-\zeta&space;\left&space;[&space;\sqrt{1&plus;\pi^2}&space;\sqrt{1&plus;\left&space;(&space;\frac{x-\mu}{\delta&space;}&space;\right&space;)^2}-\pi\frac{x-\mu}{\delta&space;}&space;\right&space;]}" title="\frac{1}{2\sqrt{1+\pi^{2}}K_{1}\left ( \zeta \right )}e^{-\zeta \left [ \sqrt{1+\pi^2} \sqrt{1+\left ( \frac{x-\mu}{\delta } \right )^2}-\pi\frac{x-\mu}{\delta } \right ]}" /><P>
 where 
 <img src="http://latex.codecogs.com/gif.latex?K_{1}()" title="K_{1}()" /> 
-is the modified Bessel function of the third kind with order 1.<P>
+is the modified Bessel function of the third kind with order 1.<P><P>
   
 The __variance-gamma__ density function parametrized with
 <img src="http://latex.codecogs.com/gif.latex?(c,\sigma,\theta,\nu)" title="(c,\sigma,\theta,\nu)" />
-is defines as:<P>
+is defined as:<P>
 <img src="http://latex.codecogs.com/gif.latex?f(x)&space;=&space;c\left&space;(&space;c,&space;\sigma,&space;\theta,&space;\nu&space;\right&space;)e^{\theta\f{(x-c)/&space;\sigma^2}}\left&space;|&space;x-c&space;\right&space;|^{1/\nu-1/2}K_{1/\nu-1/2}\left&space;(&space;\left&space;|&space;x-c&space;\right&space;|&space;\sqrt{2\sigma^2/\nu&plus;\theta^2}/\sigma^2\right&space;)" title="c\left ( c, \sigma, \theta, \nu \right )e^{\theta\f{(x-c)/ \sigma^2}}\left | x-c \right |^{1/\nu-1/2}K_{1/\nu-1/2}\left ( \left | x-c \right | \sqrt{2\sigma^2/\nu+\theta^2}/\sigma^2\right )" /> <P>
 where 
 <img src="http://latex.codecogs.com/gif.latex?K_\nu()" title="K_\nu()" /> 
