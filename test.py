@@ -1,16 +1,14 @@
 import sys
 import os
-main_folder = 'C:/Users/dawidkot/Documents/Python Scripts/Python SciPy contrib/'
-sys.path.append(os.path.abspath(main_folder))
 
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from vg import vg
-from hyperb import hyperb
+from stats.vg import vg
+from stats.hyperb import hyperb
 
-data = pd.read_csv(main_folder+'data.csv')
+data = pd.read_csv('data.csv')
 ticker = data.columns[1:3]
 x = np.array(data[ticker])
 chng = np.log(x[1:,:]/x[0:-1,:])
